@@ -4,15 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.information-container {
+.search-container {
   display: inline-block;
   padding: 60px;
   border: 1px solid #075745;
   border-top: 4px solid #1a9d49;
   margin-top: 40px;
-  width: 400px;
+  width: 450px;
   
 }
 
@@ -20,17 +21,32 @@ input {
   height: 44px;
 }
 
-.search-container{
-  display: grid;
-  justify-content: start
-  
-}
-.button {
-  margin-top:20px;
-  padding:20px;
-  background-color: #1a9d49;
-}
-
 .name {
   text-transform: capitalize;
+  font-weight: bold;
+}
+
+.results-information {
+  display: inline-block;
+  border: 1px solid #075745;
+  background-color: #f0f8f9;
+  width: 450px;
+  padding: 60px;
+  
+} 
+
+ul.ba{
+  list-style: none;
+  padding:0px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  
 }
