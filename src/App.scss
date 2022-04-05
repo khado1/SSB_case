@@ -1,0 +1,36 @@
+@import '@statisticsnorway/ssb-component-library/src/main';
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-container {
+  display: inline-block;
+  padding: 60px;
+  border: 1px solid #075745;
+  border-top: 4px solid #1a9d49;
+  margin-top: 40px;
+  width: 400px;
+  
+}
+
+input {
+  height: 44px;
+}
+
+.search-container{
+  display: grid;
+  justify-content: start
+  
+}
+.button {
+  margin-top:20px;
+  padding:20px;
+  background-color: #1a9d49;
+}
+
+.name {
+  text-transform: capitalize;
+}
